@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+.env
+audit_log.jsonl
