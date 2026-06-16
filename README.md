@@ -182,6 +182,12 @@ Designed for:
 
 ---
 
+## 🛠️ Tech Stack
+
+- Python, Streamlit, LangChain, ChromaDB, OpenAI, HuggingFace Embeddings, Vector Databases, RAG, Prompt Engineering, PDF Processing, Generative AI.
+
+---
+
 ## ⚠️ Known Issue
 
 There is a known compatibility issue with ChromaDB on Python 3.14:
@@ -195,10 +201,5 @@ Run the project using Python 3.11 or 3.12:
 python3.11 -m venv venv
 pip install -r requirements.txt
 
---
-
-## 🛠️ Tech Stack
-
-- Python, Streamlit, LangChain, ChromaDB, OpenAI, HuggingFace Embeddings, Vector Databases, RAG, Prompt Engineering, PDF Processing, Generative AI
 
 
