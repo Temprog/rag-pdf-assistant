@@ -2,9 +2,21 @@
 
 A Retrieval-Augmented Generation (RAG) system designed to answer questions on UK financial regulatory documents using AI.
 
-Built as a portfolio project aligned with AI engineering roles in regulated industries.
+Designed and implemented an AI-powered Retrieval-Augmented Generation (RAG) system for querying UK financial regulatory documentation, delivering explainable responses with source traceability, evaluation metrics, audit logging and safety guardrails for regulated-environment use cases.
 
 ---
+
+## 🚀 Overview
+
+- Ingested FCA Operational Resilience guidance from PDF documents and transformed content into searchable vector embeddings.
+- Built a semantic retrieval pipeline using ChromaDB and embedding models to identify the most relevant regulatory context for user queries.
+- Implemented Retrieval-Augmented Generation (RAG) to generate grounded responses from retrieved source material rather than relying solely on model knowledge.
+- Added page-level citations to improve explainability and support traceability of generated answers.
+- Incorporated retrieval evaluation scoring to assess alignment between user queries and retrieved context.
+- Implemented audit logging and safety guardrails to support responsible AI practices within regulated environments.
+- Developed an interactive Streamlit interface supporting configurable OpenAI and HuggingFace embedding backends.
+
+--
 
 ## 🚀 Features
 
@@ -182,3 +194,11 @@ Run the project using Python 3.11 or 3.12:
 ```bash
 python3.11 -m venv venv
 pip install -r requirements.txt
+
+--
+
+## 🛠️ Tech Stack
+
+- Python, Streamlit, LangChain, ChromaDB, OpenAI, HuggingFace Embeddings, Vector Databases, RAG, Prompt Engineering, PDF Processing, Generative AI
+
+
