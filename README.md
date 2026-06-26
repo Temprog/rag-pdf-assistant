@@ -35,6 +35,7 @@ Designed and implemented an AI-powered Retrieval-Augmented Generation (RAG) syst
 ## 🏗️ Architecture
 
 User Query → Streamlit UI → Embedding Model → Vector DB (Chroma) → Retrieval → LLM → Answer + Citations + Score
+
 ---
 
 ## 🧠 Tech Stack
@@ -84,7 +85,7 @@ Each answer includes:
 
 All interactions are stored in:
 
-audit_log.jsonl
+audit_log.json
 
 ---
 
